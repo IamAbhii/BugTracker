@@ -26,5 +26,7 @@ namespace Bug_Tracker_project.Controllers
 
             return View();
         }
+        
+
     }
 }

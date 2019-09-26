@@ -19,7 +19,7 @@ namespace Bug_Tracker_project.Models
             userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(db));
         }
 
-        public void DefineNewRole(string roleName)
+        public void CreateNewRole(string roleName)
         {
             roleManager.Create(new IdentityRole(roleName));
         }
